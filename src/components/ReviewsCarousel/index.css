@@ -1,0 +1,116 @@
+/* Write your code here */
+
+.bg-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/reviews-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.card-container {
+  font-family: roboto;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    width: 90%;
+  }
+}
+
+.header-card {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .header-card {
+    margin-bottom: 0px;
+  }
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .card-detail {
+    width: 90%;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+  .review-card {
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+.name-card {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.company-card {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.describe-card {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .company-card {
+    font-size: 18px;
+  }
+
+  .describe-card {
+    font-size: 16px;
+  }
+}
